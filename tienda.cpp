@@ -35,6 +35,7 @@ void Tienda::cargarProductos()
     m_productos.append(new Producto(1, "Leche", 0.80));
     m_productos.append(new Producto(2, "Pan", 0.15));
     m_productos.append(new Producto(3, "Queso", 2.50));
+    m_productos.append(new Producto(4, "yogurt", 0.80));
     // Podría leerse de una base de datos, de un archivo o incluso de Internet
 }
 
